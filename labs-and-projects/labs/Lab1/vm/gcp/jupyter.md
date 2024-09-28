@@ -35,27 +35,8 @@ You might be prompted with a "Restarting services" menu after running `sudo apt 
 ```
 pip3 install jupyterlab==3.4.5 MarkupSafe==2.0.1
 ```
-4. Assuming you have already completed the git-workflows directions, you will be able to run the following steps to install the remaining dependencies for CS320. If not, please go into the git-workflows section of GitLab and complete those steps.
 
-5. Run the following commands to install the remaining necessary dependencies for CS320.
-
-```
-# cd into the installation directory
-cd labs-and-projects/installation
-```
-
-```
-# execute the requirements.sh file
-./cs-320-requirements.sh
-```
-
-```
-# install the dependencies
-pip install -r requirements.txt
-```
-
-
-6. When you start Jupyter notebook remotely, you'll want to set a
+4. When you start Jupyter notebook remotely, you'll want to set a
 password for connecting to it.  Make it a good one, or anybody will be
 able to take over your VM! (Whenever you need to enter something, like a password, 
 in the terminal, don't worry if nothing is appearing as you're typing. Your keystrokes 
@@ -70,7 +51,7 @@ python3 -m jupyterlab password
   guess your password an unlimited number of times.  Most semesters at
   least one student loses their VM to malicious actors.
 
-7. Now let's start Jupyter.  Run the following:
+5. Now let's start Jupyter.  Run the following:
 
 ```
 nohup python3 -m jupyterlab --no-browser --ip=0.0.0.0 --port=2020 &
@@ -78,14 +59,33 @@ nohup python3 -m jupyterlab --no-browser --ip=0.0.0.0 --port=2020 &
 
 You can now close the terminal window.
 
-8. Now, open up a new browser window, and type `IP:2020` for the URL
+6. Now, open up a new browser window, and type `IP:2020` for the URL
 (IP should be the External IP of the virtual machine).  You can enter
 the same password that you set in step 4:
 
 <img src="img/26.png" width=600>
 
-9. After you login, make sure the setup works (e.g., you can create a
+7. After you login, make sure the setup works (e.g., you can create a
 notebook and run code).
+
+**Before continuing:
+Make sure that you have followed the directions in git-workflow directions and cloned your repository.**
+
+8. Assuming you have already completed the git-workflows directions, you will be able to run the following steps to install the remaining dependencies for CS320. If not, please go into the git-workflows section of GitLab and complete those steps.
+
+9. Run the following commands to install the remaining necessary dependencies for CS320.
+
+```
+# cd into the installation directory
+cd labs-and-projects/installation
+```
+
+```
+# execute the requirements.sh file
+./cs-320-requirements.sh
+```
+
+**Note:** if after attempting to run the script, you get the following error: `bash: ./cs-320-requirements.sh: Permission denied`. Then you will need to run: `chmod +x cs-320-requirements.sh` prior to executing the script again. The reason this happens is because in Unix-like operating systems (including Ubuntu/Linux), every file has a set of permissions that determine who can read, write, or execute the file. Running the command mentioned above will ensure that you have the correct permissions to execute the script.
 
 Good work on getting Jupyter running on your virtual machine!  We
 suggest you bookmark the login page so you can come back to it later.

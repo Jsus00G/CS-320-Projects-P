@@ -20,17 +20,22 @@ Try to run commands to get to the following state (if you get stuck, check the [
 
 <img src="1.png" width=500>
 
-### When submitting projects this semester, we will be using a Git workflow. The suggested general order that we will do this is as follows:
-- Pull all files needed for the different projects while on the main branch. 
-- Work through the projects while on this main branch and pull any updates to files that there may be.
-- Once ready to submit, *git checkout* to the respective project branch (ex. MP1).
-- *git merge main* while on the project branch to get all of your work to the project branch.
-- *git push* all of your work to the remote branch for the respective project.
-- *git checkout main* to be ready to start with your next project.
+### When submitting projects this semester, we will be using a Git workflow. Branches have been created for each of the Machine Projects. The suggested general order that we will do this is as follows:
+- Make sure you are in the correct directory. (e.g., for the first project, you should be in the mp1 directory).
+- Checkout the main branch using `git checkout main` and run `git pull` to update your local repository with the latest files. 
+- Checkout the respective project branch (e.g., MP1) using `git checkout MP1` and merge the latest changes from the main branch using `git merge main`.
+- After merging, work on your project on the project branch. 
+- Add, commit, and push your changes frequently to the remote project branch using git push to ensure easy retrieval and backup.
+- Run `git status` regularly to verify that you're on the correct project branch.
+- Once ready to submit, `git add <filename>`, `git commit -m "commit message"`, and `git push` all of your work to the remote project branch. 
+- Switch back to the main branch using `git checkout main` and pull the latest updates before starting the next project (as mentioned in step 1).
 
-Here is an example of what that might *look* like:
 
-<img src="3.png" width=800>
+
+
+
+
+
 
 If you have some free time at the end of the lab, you can try out the following challenge. 
 

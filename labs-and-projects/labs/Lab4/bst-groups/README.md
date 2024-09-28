@@ -97,6 +97,7 @@ arrange those three so that the output is in ascending alphabetical
 order, by key?
 
 ## Length
+In Python, the `len()` function is typically used with standard data structures like lists to return their size. However, by defining a special method like `__len__`, you can customize this behavior for your own data structures.
 
 Add a special method `__len__` to `Node` so that we can find the size
 of a tree.  Count every entry in the `.values` list of each `Node`.

@@ -1,6 +1,6 @@
 # Lab 9: Geopandas
 
-1. Install geopandas and geopy
+1. Install geopandas and geopy.
 
 2. Try to fix the bugs in the [`main.ipynb`](./9-geo/main.ipynb).  There is a [`solution.ipynb`](./9-geo/solution.ipynb) too, but only peek as a last resort!
 

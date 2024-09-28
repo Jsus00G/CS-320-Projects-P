@@ -28,7 +28,7 @@ By running the following code, we should be able to get everything
 from the homepage of the website. Try using .find_element() to get
 the password box and then the "GO" button. From there, we will be able
 programmatically type in the password and navigate through the site 
-later in MP4.
+later in MP4. (For more details on how to use *WebDriver* methods to perform this task, refer to the *WebDriver* documentation: https://www.selenium.dev/documentation/webdriver/elements/interactions/)
 
 ```python
 from selenium.webdriver.chrome.options import Options

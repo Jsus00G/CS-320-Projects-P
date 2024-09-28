@@ -216,7 +216,7 @@ values = {'activity_year': '2020', 'lei': '549300FX7K8PTEQUU487', 'derived_msa-m
          'action_taken': '3', 'purchaser_type': '0', 'preapproval': '2', 'loan_type': '1', 'loan_purpose': '4',
          'lien_status': '1', 'reverse_mortgage': '2', 'open-end_line_of_credit': '1',
          'business_or_commercial_purpose': '2', 'loan_amount': '225000.0', 'loan_to_value_ratio': '78.671',
-         'interest_rate': '3.000', 'rate_spread': 'NA', 'hoepa_status': '3', 'total_loan_costs': 'NA',
+         'interest_rate': '2.500', 'rate_spread': 'NA', 'hoepa_status': '3', 'total_loan_costs': 'NA',
          'total_points_and_fees': 'NA', 'origination_charges': 'NA', 'discount_points': 'NA',
          'lender_credits': 'NA', 'loan_term': '360', 'prepayment_penalty_term': 'NA', 'intro_rate_period': '1',
          'negative_amortization': '2', 'interest_only_payment': '2', 'balloon_payment': '2',
